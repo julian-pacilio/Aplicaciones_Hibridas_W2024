@@ -13,7 +13,7 @@ const eliminarTarea = indice => {
  
 };
 
-export { 
+export default { 
     listaDeTareas,
     agregarTarea,
     listarTareas,

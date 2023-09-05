@@ -1,13 +1,13 @@
-import { listaDeTareas, agregarTarea, listarTareas, eliminarTarea } from './tareas.js';
+import tareas from './tareas.js';
 
-agregarTarea("Aprender módulos en Node.js");
-agregarTarea("Practicar con un proyecto");
+tareas.agregarTarea("Aprender módulos en Node.js");
+tareas.agregarTarea("Practicar con un proyecto");
 
-listarTareas(listaDeTareas);
+tareas.listarTareas(tareas.listaDeTareas);
 
-eliminarTarea(0);
+tareas.eliminarTarea(0);
 
-listarTareas(listaDeTareas);
+tareas.listarTareas(tareas.listaDeTareas);
 
 
 
